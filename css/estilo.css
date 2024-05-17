@@ -130,6 +130,10 @@ p {
     padding: 10px 0 95px 0;
 }
 
+.card-body {
+    height: 230px;
+}
+
 .card-body p {
     font-size: 0.9em;
     text-align: justify;
@@ -149,7 +153,7 @@ p {
     /*Definições gerais
 --------------------------------*/
     h1 {
-        font-size: 2em;
+        font-size: 1.6em;
     }
 
     .logo {
@@ -158,12 +162,14 @@ p {
 /*Home
 --------------------------------*/
     #home {
-        background: #fff;
+        background: url(../imgs/cover-mobile.jpg) no-repeat;
+        background-size: contain;
+        background-position: bottom;
         height: auto;
     }
 
     .margem{
-        margin-top: 150px;
+        margin-top: 100px;
     }
 }
 
@@ -175,6 +181,7 @@ p {
 
     h1 {
         font-size: 2em;
+        text-align: left;
     }
 
     .logo {
@@ -226,6 +233,10 @@ p {
 --------------------------------*/
     .centralizar-texto {
         text-align: center;
+    }
+
+    .card-body {
+        height: 310px;
     }
     
  }
