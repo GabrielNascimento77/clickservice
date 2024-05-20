@@ -143,6 +143,35 @@ p {
     box-shadow: 0px 0px 1px black;
 }
 
+/*O que é a clickservice
+--------------------------------*/
+
+#o-que-e {
+    background: #f9f9f9;
+}
+
+#o-que-e p {
+    text-align: justify;
+}
+
+.saiba-mais {
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid #005929;
+    margin-top: 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: black;
+    width: 50%;
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
+
+.saiba-mais:hover {
+    background: #005929;
+    color: #fff;
+    text-decoration: none;
+
+}
 
 /*Media queries
 --------------------------------*/
@@ -213,6 +242,33 @@ p {
     .carousel-item {
         transition: transform 0.5s ease, opacity .5s ease-out;
     }
+
+/*O que é a clickservice
+--------------------------------*/
+    .img-o-que-e{
+        background: url(../imgs/fundo-secao-o-que-e.png);
+        background-position: 20% 100%;
+        background-size: cover;
+        margin-bottom: 35px;
+    }
+
+    #o-que-e img {
+        width: 200px;
+    }
+
+    #o-que-e h2 {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    #o-que-e p {
+        padding: 0 5px;
+    }
+
+    .saiba-mais {
+        width: 200px;
+    }
+
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -279,6 +335,14 @@ p {
 
     .card-body {
         height: 310px;
+    }
+
+/*O que é
+--------------------------------*/
+
+    #o-que-e h2 {
+        text-align: center;
+        font-size: 28px;
     }
     
  }
