@@ -171,6 +171,40 @@ p {
     .margem{
         margin-top: 100px;
     }
+
+/*Categorias
+--------------------------------*/
+
+    .formatacao-texto {
+        text-align: justify;
+    }
+
+    .coluna-categoria {
+        border: 1px solid #005929;
+        border-radius: 5px;
+        text-align: center;
+        box-shadow: 0px 0px 2px black;
+        width: 100px;
+        height: 100px;
+        padding: 10px 0 80px 0;
+    }
+
+    .coluna-categoria img {
+        width: 45px;
+    }
+
+    .mts/*Margem top serviços*/ {
+        margin-top: 8px;
+    }
+
+    .margem-negativa {
+        margin-top: -55px;
+    }
+
+    .padding-lateral-cards {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
 }
 
 /*Small devices (landscape phones, 576px and up)*/
@@ -231,7 +265,7 @@ p {
 
 /*Categorias
 --------------------------------*/
-    .centralizar-texto {
+    .formatacao-texto {
         text-align: center;
     }
 
