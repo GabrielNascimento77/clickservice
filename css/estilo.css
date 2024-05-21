@@ -173,6 +173,19 @@ p {
 
 }
 
+/*Como solicitar
+--------------------------------*/
+
+#como-solicitar h6 {
+    font-size: 18px;
+    text-align: center;
+}
+
+#como-solicitar p {
+    font-size: 14px;
+    text-align: justify;
+}
+
 /*Media queries
 --------------------------------*/
 
@@ -267,6 +280,17 @@ p {
 
     .saiba-mais {
         width: 200px;
+    }
+
+/*Como solicitar
+--------------------------------*/
+    h2 {
+        font-size: 25px;
+    }
+
+    #como-solicitar p {
+        padding: 0 10px;
+        margin-bottom: 70px;
     }
 
 }
