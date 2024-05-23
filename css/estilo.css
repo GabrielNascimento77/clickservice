@@ -44,6 +44,34 @@ p {
     font-family: "Poppins", sans-serif;
 }
 
+footer ul {
+    list-style-type: none;
+    padding: 10px 0 5px 0;
+}
+
+footer ul li a{
+    color: black;
+}
+
+footer ul li a:hover {
+    color: #005929;
+    text-decoration: none;
+}
+
+.sociais {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.sociais:hover {
+    opacity: 0.5;
+}
+
+.termos {
+    background-color: #005929
+}
+
 /*Cabeçalho
 --------------------------------*/
 
@@ -177,13 +205,29 @@ p {
 --------------------------------*/
 
 #como-solicitar h6 {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
 }
 
 #como-solicitar p {
     font-size: 14px;
     text-align: justify;
+}
+
+/*Seja um prestador
+--------------------------------*/
+
+#seja-prestador {
+    background: #005929;
+}
+
+#seja-prestador .exo {
+    font-size: 32px;
+
+}
+
+#seja-prestador h2 {
+    color: #fff;
 }
 
 /*Media queries
@@ -284,13 +328,31 @@ p {
 
 /*Como solicitar
 --------------------------------*/
-    h2 {
-        font-size: 25px;
-    }
+
 
     #como-solicitar p {
         padding: 0 10px;
         margin-bottom: 70px;
+    }
+
+/*Seja um prestador
+--------------------------------*/
+    .centralizar-texto {
+        text-align: center;
+    }
+
+    .sociais {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+
+/*Footer
+--------------------------------*/
+    .direitos-rodape {
+        font-size: 14px;
+        text-align: center;
     }
 
 }
@@ -367,6 +429,18 @@ p {
     #o-que-e h2 {
         text-align: center;
         font-size: 28px;
+    }
+
+/*Footer
+--------------------------------*/
+    .sociais {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+    }
+
+    .direitos-rodape {
+        font-size: 14px;
     }
     
  }
